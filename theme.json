@@ -96,8 +96,18 @@
           "#5ca2df",
           "#ec963e",
           "#7db251",
-          "#337ab7",
-          "#737f85"
+
+          "#ffd728",
+          "#be4aef",
+
+          "#cfff60",
+          "#29664c",
+
+          "#ff3232",
+          "#c18def",
+          "#546e84",
+          "#70bcff"
+
         ],
         "name": "Binom color scheme",
         "translation": "90s color scheme",
@@ -113,8 +123,17 @@
           "#5ca2df",
           "#ec963e",
           "#7db251",
-          "#337ab7",
-          "#737f85"
+
+          "#ffd728",
+          "#be4aef",
+
+          "#cfff60",
+          "#29664c",
+
+          "#ff3232",
+          "#c18def",
+          "#546e84",
+          "#70bcff"
         ],
         "name": "Binom color scheme",
         "_id": "5aac0b6cbe1a68155e395fc5"
@@ -141,11 +160,11 @@
     },
     {
       "scale": [
-        "#634832",
-        "#dbc1ac"
+        "#ec963e",
+        "#7db251"
       ],
       "name": "Binom 2 (gradient)",
-      "translation": "Purple to Green (gradient)",
+      "translation": "Binom 2 (gradient)",
       "type": "gradient",
       "propertyValue": "a6wfr",
       "_id": "5afef3b9a6cb421aa455f1c7"
