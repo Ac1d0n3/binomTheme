@@ -1,0 +1,27 @@
+.qvt-sheet {
+    background: rgba(247,247,247,1) !important;
+}
+
+.qv-object *:not(i):not(.lui-icon) {
+    font-family: 'montserrat' !important;
+}
+
+.qv-object  {
+    padding: 5px !important;
+    border: 1px solid #e4e8ea !important;
+    border-radius: 10px !important;
+    background: rgba(255,255,255,0.9) !important;
+}
+
+
+.sheet-title-text {
+    font-family: 'montserrat' !important;
+    color: #344656 !important;
+    font-size: 30px !important;
+}
+
+.qvt-sheet {
+    background: #fff url(bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: right -60px bottom 0px !important;
+}

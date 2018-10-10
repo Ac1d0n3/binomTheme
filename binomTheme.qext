@@ -1,0 +1,7 @@
+{
+	"name": "binomTheme",
+	"description": "custom theme for myMashup",
+	"type": "theme",
+	"versions": "1.0.0",
+	"author": "Thomas Lindackers"
+}
