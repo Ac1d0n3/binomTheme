@@ -6,11 +6,15 @@
     font-family: 'montserrat' !important;
 }
 
-.qv-object  {
+.qv-object:not(.qv-object-filterpane) .qv-inner-object{
     padding: 5px !important;
     border: 1px solid #e4e8ea !important;
     border-radius: 10px !important;
     background: rgba(255,255,255,0.9) !important;
+}
+
+.qvt-sheet.qv-custom-size #grid{
+  background-color: rgba(0,0,0,0) !important;
 }
 
 
