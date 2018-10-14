@@ -29,3 +29,36 @@
     background-repeat: no-repeat !important;
     background-position: right -60px bottom 0px !important;
 }
+
+
+.sel-toolbar-cancel{
+  background-color: #efefef !important;
+  border: 1px solid #afafaf !important;
+  color: #333 !important;
+}
+
+.sel-toolbar-confirm{
+  background-color: #5ca2df !important;
+  border: 1px solid #fff !important;
+  color: #efefef !important;
+}
+
+.sel-toolbar-cancel:hover{
+  color:#fff !important;
+  background-color: #ec963e !important ;
+}
+
+.sel-toolbar-confirm:hover  {
+  color:#fff !important
+}
+
+
+
+.serverSelected,.serverLocked, .selected {
+  background-color: #5ca2df !important;
+  border-bottom-color:  #efefef !important
+}
+
+.qvLocked  {
+  color: #344656 !important;
+}
