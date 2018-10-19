@@ -91,7 +91,8 @@ button:active{
 
 }
 
-#assets-button-panel button:hover,button:active,.qv-panel-subtoolbar button:hover,.sel-toolbar-menu-item:hover table,.sel-toolbar-menu-item:hover{
+#assets-button-panel button:hover,button:active,.qv-panel-subtoolbar button:hover
+,.sel-toolbar-menu-item:hover table,.sel-toolbar-menu-item:hover,.lui-bg-inverse{
     background-color: #5ca2df !important;
     background: #5ca2df !important;
     background-image: none;
