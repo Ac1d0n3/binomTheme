@@ -1,22 +1,75 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+button:active{
+  color: #fff !important;
+}
+
+.qvt-sheet, .qv-cao-intro-image {
+    background: rgba(255,255,255,1) url(bg.png) !important;
+}
 
 .qvt-sheet {
-    background: rgba(247,247,247,1) !important;
+    background-repeat: no-repeat !important;
+    background-position: right -60px bottom 0px !important;
 }
+
 
 .qv-object *:not(i):not(.lui-icon), .app-title, #insights-label {
     font-family: 'montserrat' !important;
 }
 
-.qv-object:not(.qv-object-filterpane) .qv-inner-object{
+.qv-object:not(.qv-object-filterpane):not(.qv-object-kpi):not(.qv-object-listbox):not(.qv-object-pivot-table):not(.qv-object-table)
+,.qv-global-search-result{
     padding: 5px !important;
     border: 1px solid #e4e8ea !important;
-    border-radius: 10px !important;
     background: rgba(255,255,255,0.8) !important;
+
 }
 
-.qv-object .qv-object-content{
+.qv-object-pivot-table h1,.qv-object-table h1{
+      padding: 5px !important;
+}
+
+.lui-popover,.qv-filterpane-expanded, .qv-object-pivot-table,.qv-object-table{
+    border: 1px solid #e4e8ea !important;
+    background: rgba(255,255,255,0.9) !important;
+}
+
+
+.qv-object-kpi {
+  padding: 5px !important;
+  border: 1px solid #e4e8ea !important;
+  background: #f7f7f7 !important;
+}
+
+.qv-collapsed-listbox, .qv-filterpane-column button,.qv-filterpane-expanded
+{
+
+}
+
+.qv-object:not(.qv-object-filterpane):not(.qv-object-kpi):not(.qv-object-listbox):hover
+{
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    background: #fff !important;
+}
+
+.qv-object-kpi:hover{
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.qv-collapsed-listbox:hover,.qv-filterpane-column button:hover,.qv-filterpane-expanded:hover {
+  color: #5ca2df !important;
+  border: 1px solid #5ca2df !important;
+}
+.qv-collapsed-listbox:hover * ,.qv-filterpane-expanded:hover h1{
+  color: #5ca2df !important;
+}
+
+
+
+.qv-object .qv-object-content,.qv-global-selections{
     background: rgba(255,255,255,0) !important;
 }
 
@@ -27,7 +80,10 @@
 }
 
 
-.qv-toolbar-container,.qui-toolbar{
+.qv-toolbar-container, .qui-toolbar,
+#assets-button-panel, #assets-button-panel button,
+.qv-panel-subtoolbar, .qv-panel-edit-bar .qv-panel-subtoolbar button, .pp-header-with-switch-component,
+.ui-accordion-header, .options-bg-color, .suggest-popup,.menu-active{
     background-color: #344656 !important;
     background: #344656 !important;
     background-image: none;
@@ -35,7 +91,19 @@
 
 }
 
-.qv-selections-pager .lui-icon, #insights-label, .empty-text{
+#assets-button-panel button:hover,button:active,.qv-panel-subtoolbar button:hover,.sel-toolbar-menu-item:hover table,.sel-toolbar-menu-item:hover{
+    background-color: #5ca2df !important;
+    background: #5ca2df !important;
+    background-image: none;
+    border-color:#5ca2df !important;
+
+}
+
+
+
+
+
+.qv-selections-pager .lui-icon, #insights-label, .empty-text,.menu-active{
   color: #fff !important;
 }
 
@@ -43,15 +111,22 @@
   color: #ec963e !important;
 }
 
-.qv-selections-pager .lui-icon:hover{
+.lui-popover button:hover,.lui-list__item:hover,.white:hover{
+  color: #5ca2df !important
+}
+
+.lui-button--gradient, .lui-button--toolbar,.qv-selections-pager .lui-icon:hover,
+.qv-toolbar-container .lui-icon, .pp-expandable-list-header,
+ .qv-pp-sortable, .lui-list__item,.white, .qv-object h1{
   color: #344656 !important;
 }
+
 
 .qv-selections-pager .active .lui-icon, .active #insights-label{
   color: #ec963e !important;
 }
 
-.app-title, .app-info-icon{
+.app-title, .app-info-icon, .lui-buttongroup{
   color:#fff !important;
 }
 
@@ -59,7 +134,9 @@
   content:' @ qlik.binom.net'
 }
 
-.qv-gs-section, .qv-app-details-container,
+
+
+.qv-gs-section, .options-bg-color,
 .app-details-content{
     background-color:  #344656 !important;
 }
@@ -69,32 +146,24 @@
 }
 
 
-
-.qvt-sheet, .qv-cao-intro-image {
-    background: #fff url(bg.png) !important;
-}
-
-.qvt-sheet {
-    background-repeat: no-repeat !important;
-    background-position: right -60px bottom 0px !important;
-}
-
 .qv-cao-intro-image {
   -webkit-background-size: cover !important;
--moz-background-size: cover !important;
--o-background-size: cover !important;
-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  margin:0 auto;
 }
 
 .sheet-title-text {
-    font-family: 'montserrat' !important;
-    text-transform: uppercase !important;
-    color: #344656 !important;
-    font-size: 30px !important;
+  font-family: 'montserrat' !important;
+  text-transform: uppercase !important;
+  color: #344656 !important;
+  font-size: 30px !important;
 }
 
+
 .sheet-title-text:before{
-    content: '# '
+  content: '# '
 }
 
 .sel-toolbar-cancel{
@@ -105,11 +174,19 @@ background-size: cover !important;
 
 .sel-toolbar-confirm, .lui-active{
   background-color: #5ca2df !important;
-  border: 1px solid #fff !important;
+  border: 1px solid #344656 !important;
   color: #efefef !important;
 }
 
-.sel-toolbar-cancel:hover{
+.sel-toolbar-confirm:hover *{
+  color: #fff !important;
+}
+
+.ui-accordion-header-active{
+  background: #ec963e !important;
+}
+
+.sel-toolbar-cancel:hover ,.sel-toolbar-cancel:hover * , .lui-button--warning{
   color:#fff !important;
   background-color: #ec963e !important ;
 }
@@ -119,12 +196,12 @@ background-size: cover !important;
 }
 
 
-
 .serverSelected,.serverLocked, .selected {
   background-color: #5ca2df !important;
   border-bottom-color:  #efefef !important;
-    color:#fff ;
+  color:#fff !important;
 }
+
 
 .qvLocked  {
   color: #344656 !important;
