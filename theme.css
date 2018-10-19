@@ -196,7 +196,7 @@ button:active{
 }
 
 
-.serverSelected,.serverLocked, .selected {
+.serverSelected:not(button),.serverLocked, .selected:not(button) {
   background-color: #5ca2df !important;
   border-bottom-color:  #efefef !important;
   color:#fff !important;
