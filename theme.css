@@ -73,7 +73,8 @@ button:active{
     background: rgba(255,255,255,0) !important;
 }
 
-.wrap, .qv-selections-pager, .app-details-content .options-bg-color, .lui-button--success {
+.wrap, .qv-selections-pager, .app-details-content .options-bg-color,
+.lui-button--success, .em-expandable, .panel-container button {
     background-color: #5ca2df!important;
     background: #5ca2df !important;
     border-color:rgba(92,162,223,1) !important;
@@ -83,7 +84,7 @@ button:active{
 .qv-toolbar-container, .qui-toolbar,
 #assets-button-panel, #assets-button-panel button,
 .qv-panel-subtoolbar, .qv-panel-edit-bar .qv-panel-subtoolbar button, .pp-header-with-switch-component,
-.ui-accordion-header, .options-bg-color, .suggest-popup,.menu-active{
+.ui-accordion-header, .options-bg-color, .suggest-popup,.menu-active,.em-list-container, .panel-content, .panel-container button.lui-disabled {
     background-color: #344656 !important;
     background: #344656 !important;
     background-image: none;
